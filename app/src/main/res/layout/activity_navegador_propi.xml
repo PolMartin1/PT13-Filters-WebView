@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavegadorPropi"
+    android:background="@android:color/holo_orange_dark">
+
+    <WebView
+        android:id="@+id/NavegadorPropi"
+        android:layout_width="284dp"
+        android:layout_height="483dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
